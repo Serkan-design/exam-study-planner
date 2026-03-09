@@ -1,8 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { 
-  Play, Check, Calendar, BookOpen, Clock, 
-  ChevronRight, BookMarked, Monitor, Layout, Globe, Search, 
-  X, Info, Book, FileText, Zap, ShieldCheck, Youtube, ArrowLeft, Trophy, ExternalLink, FileDown 
+  Check, Calendar, BookOpen, 
+  ChevronRight, X, Book, Zap, Youtube, ArrowLeft, Trophy, RotateCcw
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
