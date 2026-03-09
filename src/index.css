@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-auzef-blue: #0055ff;
+  --color-auzef-deep: #000c2e;
+  --color-auzef-surface: #001c4d;
+  --color-auzef-bg: #000414;
+}
+
+@layer base {
+  body {
+    @apply bg-auzef-bg text-white font-sans overflow-x-hidden m-0 p-0;
+  }
+}
+
+@layer utilities {
+  .auzef-glass {
+    @apply bg-[#001c4d]/80 backdrop-blur-xl border border-white/10;
+  }
+}
+
+.custom-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scroll::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+.custom-scroll::-webkit-scrollbar-thumb {
+  @apply bg-blue-900 rounded-full hover:bg-blue-600;
+}
